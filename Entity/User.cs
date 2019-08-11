@@ -5,6 +5,7 @@ namespace Entity
 {
     public class User
     {
+        [Key]
         public int ID { get; set; }
 
         [Required]
