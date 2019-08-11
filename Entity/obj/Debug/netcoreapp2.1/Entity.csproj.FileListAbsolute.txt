@@ -1,0 +1,9 @@
+C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\Entity\bin\Debug\netcoreapp2.1\Entity.deps.json
+C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\Entity\bin\Debug\netcoreapp2.1\Entity.dll
+C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\Entity\bin\Debug\netcoreapp2.1\Entity.pdb
+C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\Entity\obj\Debug\netcoreapp2.1\Entity.csprojAssemblyReference.cache
+C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\Entity\obj\Debug\netcoreapp2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\Entity\obj\Debug\netcoreapp2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\Entity\obj\Debug\netcoreapp2.1\Entity.AssemblyInfo.cs
+C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\Entity\obj\Debug\netcoreapp2.1\Entity.dll
+C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\Entity\obj\Debug\netcoreapp2.1\Entity.pdb
