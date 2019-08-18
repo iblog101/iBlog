@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entity
 {
-    public class User
+    public class User : IUser
     {
+        [Key]
         public int ID { get; set; }
 
         [Required]
@@ -25,8 +28,7 @@ namespace Entity
         public string Email { get; set; }
 
         [Required]
-       [DataType(DataType.PhoneNumber)]
-       // [Phone]
+        [DataType(DataType.PhoneNumber)]
         public Int64 PhoneNumber { get; set; }
 
         [MaxLength(50)]
@@ -35,12 +37,15 @@ namespace Entity
         [MaxLength(2)] [MinLength(2)]
         public string State { get; set; }
 
+        [MaxLength(25)]
+        public string City { get; set; }
+
         [RegularExpression(@"^\d{5}(-\d{4})?$", ErrorMessage = "Invalid Zip")]
         public string Zip { get; set; }
 
         [MaxLength(25)]
         public string Country { get; set; }
-        
+
         [Required]
         [MaxLength(15)]
         [MinLength(6)]
@@ -50,6 +55,20 @@ namespace Entity
         [DataType(DataType.Password)]
         [MinLength(8)]
         public string Password { get; set; }
+
+        [Url]
+        public string AvatarURL { get; set; }
+
+        [Required]
+        public bool isActive { get; set; }
+
+        [Required]
+        public string UserType { get; set; }
+
+        public User() {
+            isActive = true;
+            UserType = "User";
+        }
 
     }
 }

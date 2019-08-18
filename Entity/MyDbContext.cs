@@ -11,5 +11,7 @@ namespace Entity
             : base(context) { }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Profile> Profiles { get; set; }
     }
 }

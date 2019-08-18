@@ -51,9 +51,26 @@ namespace iBlogAPI.Controllers
             {
                 return NotFound();
             }
+            else if(user.isActive == false) {
+
+                return Content("Contact iBlog support. Your account has been disabled.");
+            }
             return user;
         }
 
+        [HttpPut]
+        [Route("Activate/{id}")]
+        public async Task<IActionResult> Activate(int id)
+        {
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+            {
+                return BadRequest();
+            }
+            user.isActive = true;
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
 
         // PUT: api/Users/5
         [HttpPut("{id}")]
@@ -92,9 +109,23 @@ namespace iBlogAPI.Controllers
         public async Task<ActionResult<User>> PostUser(User user)
         {
             _context.Users.Add(user);
+            Profile profile = new Profile(user);
+            _context.Profiles.Add(profile);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetUser", new { id = user.ID }, user);
+        }
+
+        [HttpPost]
+        [Route("Blogger")]
+        public async Task<ActionResult<User>> PostBlogger(Blogger blogger)
+        {
+            _context.Users.Add(blogger);
+           
+            Profile profile = new Profile(blogger);
+            _context.Profiles.Add(profile);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction("GetUser", new { id = blogger.ID }, blogger);
         }
 
         // DELETE: api/Users/5
@@ -106,8 +137,8 @@ namespace iBlogAPI.Controllers
             {
                 return NotFound();
             }
+            user.isActive = false;
 
-            _context.Users.Remove(user);
             await _context.SaveChangesAsync();
 
             return user;
