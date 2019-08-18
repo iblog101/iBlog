@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entity.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20190805190117_init")]
-    partial class init
+    [Migration("20190814152219_update blog entity")]
+    partial class updateblogentity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,6 +21,31 @@ namespace Entity.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Entity.Blog", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Date");
+
+                    b.Property<string>("MessageBody")
+                        .IsRequired()
+                        .HasMaxLength(1000);
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasMaxLength(20);
+
+                    b.Property<int>("UserID");
+
+                    b.Property<bool>("isActive");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Blogs");
+                });
+
             modelBuilder.Entity("Entity.User", b =>
                 {
                     b.Property<int>("ID")
@@ -28,10 +53,15 @@ namespace Entity.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Address")
-                        .IsRequired();
+                        .HasMaxLength(50);
+
+                    b.Property<string>("AvatarURL");
+
+                    b.Property<string>("City")
+                        .HasMaxLength(25);
 
                     b.Property<string>("Country")
-                        .IsRequired();
+                        .HasMaxLength(25);
 
                     b.Property<DateTime>("DOB");
 
@@ -39,23 +69,31 @@ namespace Entity.Migrations
                         .IsRequired();
 
                     b.Property<string>("FirstName")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasMaxLength(20);
 
                     b.Property<string>("LastName")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasMaxLength(20);
 
                     b.Property<string>("Password")
                         .IsRequired();
 
-                    b.Property<int>("PhoneNumber");
+                    b.Property<long>("PhoneNumber");
 
                     b.Property<string>("State")
+                        .HasMaxLength(2);
+
+                    b.Property<string>("UserType")
                         .IsRequired();
 
                     b.Property<string>("Username")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasMaxLength(15);
 
-                    b.Property<int>("Zip");
+                    b.Property<string>("Zip");
+
+                    b.Property<bool>("isActive");
 
                     b.HasKey("ID");
 

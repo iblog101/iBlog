@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entity.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20190810011457_update int for phonenumber")]
-    partial class updateintforphonenumber
+    [Migration("20190814143213_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,6 +21,29 @@ namespace Entity.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Entity.Blog", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Date");
+
+                    b.Property<string>("MessageBody")
+                        .IsRequired()
+                        .HasMaxLength(1000);
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasMaxLength(20);
+
+                    b.Property<int>("UserID");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Blogs");
+                });
+
             modelBuilder.Entity("Entity.User", b =>
                 {
                     b.Property<int>("ID")
@@ -29,6 +52,11 @@ namespace Entity.Migrations
 
                     b.Property<string>("Address")
                         .HasMaxLength(50);
+
+                    b.Property<string>("AvatarURL");
+
+                    b.Property<string>("City")
+                        .HasMaxLength(25);
 
                     b.Property<string>("Country")
                         .HasMaxLength(25);
@@ -54,11 +82,16 @@ namespace Entity.Migrations
                     b.Property<string>("State")
                         .HasMaxLength(2);
 
+                    b.Property<string>("UserType")
+                        .IsRequired();
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(15);
 
                     b.Property<string>("Zip");
+
+                    b.Property<bool>("isActive");
 
                     b.HasKey("ID");
 
