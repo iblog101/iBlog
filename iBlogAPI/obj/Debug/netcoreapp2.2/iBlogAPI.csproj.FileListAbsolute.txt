@@ -15,3 +15,20 @@ C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\iBlogAPI\obj\Debug\netcoreapp
 C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.csproj.CopyComplete
 C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.dll
 C:\Users\Luis Concepcion Bido\Desktop\Secret\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.pdb
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\bin\Debug\netcoreapp2.2\iBlogAPI.deps.json
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\bin\Debug\netcoreapp2.2\iBlogAPI.runtimeconfig.json
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\bin\Debug\netcoreapp2.2\iBlogAPI.runtimeconfig.dev.json
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\bin\Debug\netcoreapp2.2\iBlogAPI.dll
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\bin\Debug\netcoreapp2.2\iBlogAPI.pdb
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\bin\Debug\netcoreapp2.2\Entity.dll
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\bin\Debug\netcoreapp2.2\Entity.pdb
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.csprojAssemblyReference.cache
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.csproj.CoreCompileInputs.cache
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.RazorAssemblyInfo.cache
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.RazorAssemblyInfo.cs
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.AssemblyInfoInputs.cache
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.AssemblyInfo.cs
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.RazorTargetAssemblyInfo.cache
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.csproj.CopyComplete
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.dll
+C:\Users\z8410\Desktop\iBlog\iBlogAPI\obj\Debug\netcoreapp2.2\iBlogAPI.pdb

@@ -35,19 +35,50 @@ namespace Entity
             Date = DateTime.Now;
             isActive = true;
             UserLikes = new List<User>();
-            Likes = UserLikes.Count;
+            Likes = TotalLikes();
+        }
+
+        public bool LikedIsFull()
+        {
+            return Likes == int.MaxValue;
+        }
+
+        public bool LikedIsEmpty()
+        {
+            return Likes == 0;
         }
 
         public void Liked(User user)
         {
-            UserLikes.Add(user);
-            Likes = UserLikes.Count;
+            if (!LikedIsFull())
+            {
+                UserLikes.Add(user);
+            }
+            else
+            {
+                // user likes is full
+            }
         }
 
         public void DisLiked(User user)
         {
-            UserLikes.Remove(user);
-            Likes = UserLikes.Count;
+            if (!LikedIsEmpty())
+            {
+                UserLikes.Remove(user);
+            }
+            else
+            {
+                // user likes is empty
+            }
         }
+
+
+
+        public int TotalLikes()
+        {   
+            return Likes = UserLikes.Count;
+        }
+
+        
     }
 }
