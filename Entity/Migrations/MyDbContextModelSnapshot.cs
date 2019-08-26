@@ -54,6 +54,9 @@ namespace Entity.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Bio")
+                        .HasMaxLength(250);
+
                     b.Property<int>("BlockCount");
 
                     b.Property<int>("FollowersCount");

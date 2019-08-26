@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Entity;
+using Microsoft.AspNetCore.Cors;
 
 namespace iBlogAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("CorsPolicy")]
     public class UsersController : ControllerBase
     {
         private readonly MyDbContext _context;

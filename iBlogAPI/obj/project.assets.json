@@ -6036,7 +6036,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "kgPb5uvgeUs6uHTgNbiNGX4cVsxbuo2u945RBaW9/hWel2YLshy1BjaIB3zxPoIqKQuPbIThvm2mj9oLB7y8QA==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hasTools": true,
@@ -10098,7 +10098,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "KE1WRaTbVZYPYQhuT0yNaOXLaioSJZLajhvTXo3pqcCEvGfo0fyrnCPIEsyJsNBpxBZXtgqa3v4T+t8AMLGHrQ==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -12953,23 +12953,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\z8410\\.nuget\\packages\\": {},
+    "C:\\Users\\Luis Concepcion Bido\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
       "projectName": "iBlogAPI",
-      "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
-      "packagesPath": "C:\\Users\\z8410\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\obj\\",
+      "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
+      "packagesPath": "C:\\Users\\Luis Concepcion Bido\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\iBlogAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\z8410\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Luis Concepcion Bido\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12982,8 +12982,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj"
+            "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj"
             }
           }
         }

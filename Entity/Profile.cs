@@ -1,21 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace Entity
 {
-     public class Profile
+    public class Profile
     {
         [Key]
         public int ID { get; set; }
 
-       // [NotMapped]
+        // [NotMapped]
         public User ProfileUser { get; set; }
 
         [ForeignKey("Users")]
         public int ProfileUserID { get; set; }
+        [MaxLength(250)]
+        public string Bio { get; set; }
 
         [NotMapped]
         public List<User> Followers { get; set; }
@@ -65,7 +65,7 @@ namespace Entity
             {
                 // Follower count is full int max
             }
-           
+
         }
 
         //Have to update following user Followers and FollowersCount in profile  
@@ -79,7 +79,7 @@ namespace Entity
             {
                 //follower count is empty
             }
-           
+
         }
         public int TotalFollowerCount()
         {
@@ -122,7 +122,7 @@ namespace Entity
             {
                 //Block List is full int max
             }
-           
+
         }
 
         public void UnBlock(User user)
