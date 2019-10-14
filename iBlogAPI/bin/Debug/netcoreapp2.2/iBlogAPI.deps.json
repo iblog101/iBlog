@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "97e3b47b3eee94ab80e1236feafb98b6f43df62f"
+    "signature": ""
   },
   "compilationOptions": {
     "defines": [
@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_2"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -28,7 +28,9 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
+          "NetSpell": "2.1.7",
+          "Utils": "1.0.0"
         },
         "runtime": {
           "iBlogAPI.dll": {}
@@ -254,6 +256,28 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
+        }
+      },
+      "NetSpell/2.1.7": {
+        "runtime": {
+          "lib/NetSpell.SpellChecker.dll": {
+            "assemblyVersion": "2.1.7.41329",
+            "fileVersion": "2.1.7.41329"
+          }
+        },
+        "compile": {
+          "lib/NetSpell.SpellChecker.dll": {}
+        }
+      },
+      "NHunspell/1.2.5554.16953": {
+        "runtime": {
+          "lib/net/NHunspell.dll": {
+            "assemblyVersion": "1.2.5554.16953",
+            "fileVersion": "1.2.5554.16953"
+          }
+        },
+        "compile": {
+          "lib/net/NHunspell.dll": {}
         }
       },
       "NuGet.Frameworks/4.7.0": {
@@ -549,6 +573,18 @@
         },
         "compile": {
           "Entity.dll": {}
+        }
+      },
+      "Utils/1.0.0": {
+        "dependencies": {
+          "NHunspell": "1.2.5554.16953",
+          "NetSpell": "2.1.7"
+        },
+        "runtime": {
+          "Utils.dll": {}
+        },
+        "compile": {
+          "Utils.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3735,6 +3771,20 @@
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.2.3",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.2.2.3.nupkg.sha512"
     },
+    "NetSpell/2.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aYgExP8R1uOXUCBlbvDTX/t9VL0SBRy/BiZRlf6V3ZTJNZpXBQD7ZmbBdI5PewUG4Bo6uF2KQKqIZyA0znfhJw==",
+      "path": "netspell/2.1.7",
+      "hashPath": "netspell.2.1.7.nupkg.sha512"
+    },
+    "NHunspell/1.2.5554.16953": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B2tr5kfwHu0jan5Gd3JEWdJkDVJxGAXmA230y0XeqJcL4zdZWk8Bmw9LVQ3p9/qKuun/7+FemxjspbjcTLGp6g==",
+      "path": "nhunspell/1.2.5554.16953",
+      "hashPath": "nhunspell.1.2.5554.16953.nupkg.sha512"
+    },
     "NuGet.Frameworks/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -3850,7 +3900,7 @@
     "System.Linq.Queryable/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KE1WRaTbVZYPYQhuT0yNaOXLaioSJZLajhvTXo3pqcCEvGfo0fyrnCPIEsyJsNBpxBZXtgqa3v4T+t8AMLGHrQ==",
+      "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
     },
@@ -3862,6 +3912,11 @@
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
     },
     "Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -4541,7 +4596,7 @@
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kgPb5uvgeUs6uHTgNbiNGX4cVsxbuo2u945RBaW9/hWel2YLshy1BjaIB3zxPoIqKQuPbIThvm2mj9oLB7y8QA==",
+      "sha512": "sha512-HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hashPath": "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512"
     },

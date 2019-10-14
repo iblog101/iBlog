@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iBlogAPI", "iBlogAPI\iBlogAPI.csproj", "{5C7910EA-95AF-4CDD-894E-727BB2A3F76A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{D833B085-D1F5-4D6B-ACB0-8CF2C2BB8F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsUnitTest", "UtilsUnitTest\UtilsUnitTest.csproj", "{270EC350-7804-4CF6-989A-F35152F2323A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{5C7910EA-95AF-4CDD-894E-727BB2A3F76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7910EA-95AF-4CDD-894E-727BB2A3F76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C7910EA-95AF-4CDD-894E-727BB2A3F76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D833B085-D1F5-4D6B-ACB0-8CF2C2BB8F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D833B085-D1F5-4D6B-ACB0-8CF2C2BB8F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D833B085-D1F5-4D6B-ACB0-8CF2C2BB8F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D833B085-D1F5-4D6B-ACB0-8CF2C2BB8F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270EC350-7804-4CF6-989A-F35152F2323A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270EC350-7804-4CF6-989A-F35152F2323A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270EC350-7804-4CF6-989A-F35152F2323A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270EC350-7804-4CF6-989A-F35152F2323A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2378,7 +2378,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "KE1WRaTbVZYPYQhuT0yNaOXLaioSJZLajhvTXo3pqcCEvGfo0fyrnCPIEsyJsNBpxBZXtgqa3v4T+t8AMLGHrQ==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -3466,23 +3466,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Luis Concepcion Bido\\.nuget\\packages\\": {},
+    "C:\\Users\\z8410\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj",
-      "packagesPath": "C:\\Users\\Luis Concepcion Bido\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\obj\\",
+      "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj",
+      "packagesPath": "C:\\Users\\z8410\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Luis Concepcion Bido\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\z8410\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3518,10 +3518,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

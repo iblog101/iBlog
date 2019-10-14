@@ -29,7 +29,7 @@ namespace Entity
 
         [Required]
         [DataType(DataType.PhoneNumber)]
-        public Int64 PhoneNumber { get; set; }
+        public int PhoneNumber { get; set; }
 
         [MaxLength(50)]
         public string Address { get; set; }

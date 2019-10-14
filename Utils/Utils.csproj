@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetSpell" Version="2.1.7" />
+    <PackageReference Include="NHunspell" Version="1.2.5554.16953" />
+  </ItemGroup>
+
+</Project>

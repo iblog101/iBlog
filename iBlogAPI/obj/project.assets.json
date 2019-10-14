@@ -2844,6 +2844,15 @@
           }
         }
       },
+      "NetSpell/2.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/NetSpell.SpellChecker.dll": {}
+        },
+        "runtime": {
+          "lib/NetSpell.SpellChecker.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -2879,6 +2888,15 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "NHunspell/1.2.5554.16953": {
+        "type": "package",
+        "compile": {
+          "lib/net/NHunspell.dll": {}
+        },
+        "runtime": {
+          "lib/net/NHunspell.dll": {}
         }
       },
       "NuGet.Frameworks/4.7.0": {
@@ -4733,6 +4751,20 @@
         "runtime": {
           "bin/placeholder/Entity.dll": {}
         }
+      },
+      "Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NHunspell": "1.2.5554.16953",
+          "NetSpell": "2.1.7"
+        },
+        "compile": {
+          "bin/placeholder/Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utils.dll": {}
+        }
       }
     }
   },
@@ -6036,7 +6068,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "kgPb5uvgeUs6uHTgNbiNGX4cVsxbuo2u945RBaW9/hWel2YLshy1BjaIB3zxPoIqKQuPbIThvm2mj9oLB7y8QA==",
+      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hasTools": true,
@@ -7923,6 +7955,28 @@
         "version.txt"
       ]
     },
+    "NetSpell/2.1.7": {
+      "sha512": "aYgExP8R1uOXUCBlbvDTX/t9VL0SBRy/BiZRlf6V3ZTJNZpXBQD7ZmbBdI5PewUG4Bo6uF2KQKqIZyA0znfhJw==",
+      "type": "package",
+      "path": "netspell/2.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dic/de-DE.dic",
+        "dic/en-AU.dic",
+        "dic/en-CA.dic",
+        "dic/en-GB.dic",
+        "dic/en-US.dic",
+        "dic/es-ES.dic",
+        "dic/es-MX.dic",
+        "dic/fr-FR.dic",
+        "dic/it-IT.dic",
+        "lib/NetSpell.SpellChecker.dll",
+        "lib/NetSpell.SpellChecker.xml",
+        "netspell.2.1.7.nupkg.sha512",
+        "netspell.nuspec"
+      ]
+    },
     "NETStandard.Library/2.0.3": {
       "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
@@ -8094,6 +8148,23 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "NHunspell/1.2.5554.16953": {
+      "sha512": "B2tr5kfwHu0jan5Gd3JEWdJkDVJxGAXmA230y0XeqJcL4zdZWk8Bmw9LVQ3p9/qKuun/7+FemxjspbjcTLGp6g==",
+      "type": "package",
+      "path": "nhunspell/1.2.5554.16953",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Tools/install.ps1",
+        "content/Hunspellx64.dll",
+        "content/Hunspellx86.dll",
+        "lib/net/NHunspell.dll",
+        "lib/net/NHunspell.pdb",
+        "nhunspell.1.2.5554.16953.nupkg.sha512",
+        "nhunspell.nuspec"
       ]
     },
     "NuGet.Frameworks/4.7.0": {
@@ -10098,7 +10169,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "KE1WRaTbVZYPYQhuT0yNaOXLaioSJZLajhvTXo3pqcCEvGfo0fyrnCPIEsyJsNBpxBZXtgqa3v4T+t8AMLGHrQ==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -12941,6 +13012,11 @@
       "type": "project",
       "path": "../Entity/Entity.csproj",
       "msbuildProject": "../Entity/Entity.csproj"
+    },
+    "Utils/1.0.0": {
+      "type": "project",
+      "path": "../Utils/Utils.csproj",
+      "msbuildProject": "../Utils/Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12949,27 +13025,29 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
+      "NetSpell >= 2.1.7",
+      "Utils >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Luis Concepcion Bido\\.nuget\\packages\\": {},
+    "C:\\Users\\z8410\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
+      "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
       "projectName": "iBlogAPI",
-      "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
-      "packagesPath": "C:\\Users\\Luis Concepcion Bido\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\iBlogAPI\\obj\\",
+      "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
+      "packagesPath": "C:\\Users\\z8410\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Luis Concepcion Bido\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\z8410\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12982,8 +13060,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj"
+            "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj"
+            },
+            "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj": {
+              "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj"
             }
           }
         }
@@ -13017,14 +13098,46 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.2.3, )"
+          },
+          "NetSpell": {
+            "target": "Package",
+            "version": "[2.1.7, )"
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetSpell 2.1.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
+      "libraryId": "NetSpell",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NHunspell 1.2.5554.16953' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
+      "libraryId": "NHunspell",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }
