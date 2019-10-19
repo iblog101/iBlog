@@ -1,0 +1,17 @@
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\UtilsUnitTest.dll
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\UtilsUnitTest.pdb
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\Utils.dll
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\Utils.pdb
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\obj\Debug\UtilsUnitTest.csprojAssemblyReference.cache
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\obj\Debug\UtilsUnitTest.csproj.CopyComplete
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\obj\Debug\UtilsUnitTest.dll
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\obj\Debug\UtilsUnitTest.pdb
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\NetSpell.SpellChecker.dll
+C:\Users\z8410\Desktop\iBlog\UtilsUnitTest\bin\Debug\NetSpell.SpellChecker.xml
