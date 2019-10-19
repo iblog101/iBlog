@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj": {}
+    "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj": {
+    "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Luis Concepcion Bido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

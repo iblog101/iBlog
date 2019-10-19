@@ -12959,11 +12959,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
       "projectName": "iBlogAPI",
-      "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
+      "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
       "packagesPath": "C:\\Users\\Luis Concepcion Bido\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\iBlogAPI\\obj\\",
+      "outputPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\iBlogAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12982,8 +12982,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\Secret\\iBlog\\Entity\\Entity.csproj"
+            "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\Luis Concepcion Bido\\Desktop\\master\\iBlog\\Entity\\Entity.csproj"
             }
           }
         }
