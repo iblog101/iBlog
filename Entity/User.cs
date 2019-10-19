@@ -23,6 +23,9 @@ namespace Entity
         public DateTime DOB { get; set; }
 
         [Required]
+        public string Sex { get; set; }
+
+        [Required]
         [EmailAddress]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }

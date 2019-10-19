@@ -109,6 +109,9 @@ namespace Entity.Migrations
 
                     b.Property<long>("PhoneNumber");
 
+                    b.Property<string>("Sex")
+                        .IsRequired();
+
                     b.Property<string>("State")
                         .HasMaxLength(2);
 
