@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj": {}
+    "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\Utils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj": {
+    "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj",
+        "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj",
+        "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\Utils.csproj",
         "packagesPath": "C:\\Users\\z8410\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\obj\\",
+        "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

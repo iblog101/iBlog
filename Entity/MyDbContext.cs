@@ -13,5 +13,7 @@ namespace Entity
         public DbSet<User> Users { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Profile> Profiles { get; set; }
+        public DbSet<Image> Images { get; set; }
+        public DbSet<Video> Videos { get; set; }
     }
 }

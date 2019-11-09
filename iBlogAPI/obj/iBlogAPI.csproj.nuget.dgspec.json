@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\iBlogAPI.csproj": {}
+    "C:\\Users\\z8410\\Desktop\\iBlog2\\iBlogAPI\\iBlogAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj": {
+    "C:\\Users\\z8410\\Desktop\\iBlog2\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog2\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\z8410\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\iBlogAPI.csproj": {
+    "C:\\Users\\z8410\\Desktop\\iBlog2\\iBlogAPI\\iBlogAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
+        "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog2\\iBlogAPI\\iBlogAPI.csproj",
         "projectName": "iBlogAPI",
-        "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\iBlogAPI.csproj",
+        "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\iBlogAPI\\iBlogAPI.csproj",
         "packagesPath": "C:\\Users\\z8410\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog\\iBlogAPI\\obj\\",
+        "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\iBlogAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -92,11 +92,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj"
+              "C:\\Users\\z8410\\Desktop\\iBlog2\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj": {
-                "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj"
+              "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\UtilsExtension.csproj": {
+                "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\UtilsExtension.csproj"
               }
             }
           }
@@ -129,11 +129,15 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[2.2.3, )"
+              "version": "[2.2.4, )"
             },
             "NetSpell": {
               "target": "Package",
               "version": "[2.1.7, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.6.0, )"
             }
           },
           "imports": [
@@ -150,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj": {
+    "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\UtilsExtension.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj",
-        "projectName": "Utils",
-        "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\Utils.csproj",
+        "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\UtilsExtension.csproj",
+        "projectName": "UtilsExtension",
+        "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\UtilsExtension.csproj",
         "packagesPath": "C:\\Users\\z8410\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Utils\\obj\\",
+        "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -200,6 +204,10 @@
             "NetSpell": {
               "target": "Package",
               "version": "[2.1.7, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.6.0, )"
             }
           },
           "imports": [

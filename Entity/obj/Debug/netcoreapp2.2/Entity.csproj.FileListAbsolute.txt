@@ -15,3 +15,11 @@ C:\Users\z8410\Desktop\iBlog\Entity\obj\Debug\netcoreapp2.2\Entity.AssemblyInfoI
 C:\Users\z8410\Desktop\iBlog\Entity\obj\Debug\netcoreapp2.2\Entity.AssemblyInfo.cs
 C:\Users\z8410\Desktop\iBlog\Entity\obj\Debug\netcoreapp2.2\Entity.dll
 C:\Users\z8410\Desktop\iBlog\Entity\obj\Debug\netcoreapp2.2\Entity.pdb
+C:\Users\z8410\Desktop\iBlog2\Entity\bin\Debug\netcoreapp2.2\Entity.deps.json
+C:\Users\z8410\Desktop\iBlog2\Entity\bin\Debug\netcoreapp2.2\Entity.dll
+C:\Users\z8410\Desktop\iBlog2\Entity\bin\Debug\netcoreapp2.2\Entity.pdb
+C:\Users\z8410\Desktop\iBlog2\Entity\obj\Debug\netcoreapp2.2\Entity.csprojAssemblyReference.cache
+C:\Users\z8410\Desktop\iBlog2\Entity\obj\Debug\netcoreapp2.2\Entity.AssemblyInfoInputs.cache
+C:\Users\z8410\Desktop\iBlog2\Entity\obj\Debug\netcoreapp2.2\Entity.AssemblyInfo.cs
+C:\Users\z8410\Desktop\iBlog2\Entity\obj\Debug\netcoreapp2.2\Entity.dll
+C:\Users\z8410\Desktop\iBlog2\Entity\obj\Debug\netcoreapp2.2\Entity.pdb

@@ -3472,11 +3472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\z8410\\Desktop\\iBlog2\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\Entity.csproj",
+      "projectPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\z8410\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog\\Entity\\obj\\",
+      "outputPath": "C:\\Users\\z8410\\Desktop\\iBlog2\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

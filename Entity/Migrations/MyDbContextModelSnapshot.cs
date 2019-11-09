@@ -48,6 +48,25 @@ namespace Entity.Migrations
                     b.ToTable("Blogs");
                 });
 
+            modelBuilder.Entity("Entity.Image", b =>
+                {
+                    b.Property<int>("ImageId");
+
+                    b.Property<byte[]>("AvatarImage");
+
+                    b.Property<DateTime>("CreatedDate");
+
+                    b.Property<int>("ID");
+
+                    b.Property<string>("Size");
+
+                    b.HasKey("ImageId");
+
+                    b.HasIndex("ID");
+
+                    b.ToTable("Images");
+                });
+
             modelBuilder.Entity("Entity.Profile", b =>
                 {
                     b.Property<int>("ID")
@@ -107,7 +126,7 @@ namespace Entity.Migrations
                     b.Property<string>("Password")
                         .IsRequired();
 
-                    b.Property<long>("PhoneNumber");
+                    b.Property<int>("PhoneNumber");
 
                     b.Property<string>("State")
                         .HasMaxLength(2);
@@ -128,6 +147,25 @@ namespace Entity.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("Entity.Video", b =>
+                {
+                    b.Property<int>("VideoId");
+
+                    b.Property<DateTime>("CreatedDate");
+
+                    b.Property<int>("ID");
+
+                    b.Property<string>("Size");
+
+                    b.Property<byte[]>("VideoData");
+
+                    b.HasKey("VideoId");
+
+                    b.HasIndex("ID");
+
+                    b.ToTable("Videos");
+                });
+
             modelBuilder.Entity("Entity.Blog", b =>
                 {
                     b.HasOne("Entity.User", "User")
@@ -136,11 +174,27 @@ namespace Entity.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
+            modelBuilder.Entity("Entity.Image", b =>
+                {
+                    b.HasOne("Entity.User", "User")
+                        .WithMany()
+                        .HasForeignKey("ID")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
             modelBuilder.Entity("Entity.Profile", b =>
                 {
                     b.HasOne("Entity.User", "ProfileUser")
                         .WithMany()
                         .HasForeignKey("ProfileUserID")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Entity.Video", b =>
+                {
+                    b.HasOne("Entity.User", "User")
+                        .WithMany()
+                        .HasForeignKey("ID")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618

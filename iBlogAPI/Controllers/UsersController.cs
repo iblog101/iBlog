@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Entity;
 using Microsoft.AspNetCore.Cors;
+using System.Configuration;
 
 namespace iBlogAPI.Controllers
 {
@@ -110,6 +111,12 @@ namespace iBlogAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
+            user.FirstName = "john";
+            user.LastName = "smith";
+            user.DOB = DateTime.Parse("1990/10/01");
+            user.Email = "123@gmail.com";
+            user.PhoneNumber = 1234444444;
+            user.AvatarURL = "123";
             _context.Users.Add(user);
             Profile profile = new Profile(user);
             _context.Profiles.Add(profile);
@@ -117,6 +124,17 @@ namespace iBlogAPI.Controllers
 
             return CreatedAtAction("GetUser", new { id = user.ID }, user);
         }
+
+      
+
+
+
+
+
+ 
+
+
+
 
         [HttpPost]
         [Route("Blogger")]

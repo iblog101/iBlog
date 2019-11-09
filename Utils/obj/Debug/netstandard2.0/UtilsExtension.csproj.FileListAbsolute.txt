@@ -1,0 +1,8 @@
+C:\Users\z8410\Desktop\iBlog2\Utils\bin\Debug\netstandard2.0\UtilsExtension.deps.json
+C:\Users\z8410\Desktop\iBlog2\Utils\bin\Debug\netstandard2.0\UtilsExtension.dll
+C:\Users\z8410\Desktop\iBlog2\Utils\bin\Debug\netstandard2.0\UtilsExtension.pdb
+C:\Users\z8410\Desktop\iBlog2\Utils\obj\Debug\netstandard2.0\UtilsExtension.csprojAssemblyReference.cache
+C:\Users\z8410\Desktop\iBlog2\Utils\obj\Debug\netstandard2.0\UtilsExtension.AssemblyInfoInputs.cache
+C:\Users\z8410\Desktop\iBlog2\Utils\obj\Debug\netstandard2.0\UtilsExtension.AssemblyInfo.cs
+C:\Users\z8410\Desktop\iBlog2\Utils\obj\Debug\netstandard2.0\UtilsExtension.dll
+C:\Users\z8410\Desktop\iBlog2\Utils\obj\Debug\netstandard2.0\UtilsExtension.pdb
